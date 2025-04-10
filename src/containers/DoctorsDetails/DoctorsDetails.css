@@ -1,0 +1,123 @@
+/* General Layout */
+.tech-team-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #4a90e2;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  padding-bottom: 40px;
+}
+
+.team-member-layout {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.team-member-card {
+  width: 240px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.team-member-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.team-member-role {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+.team-member-description {
+  font-size: 12px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.team-member-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.team-member-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .team-member-layout {
+      flex-direction: row;
+      justify-content: center;
+      gap: 50px;
+      overflow-x: auto;
+      padding: 0 20px;
+  }
+
+  .team-member-card {
+      width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tech-team-container {
+      padding: 20px 0;
+  }
+
+  .team-member-layout {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .team-member-card {
+      width: 90%;
+  }
+}

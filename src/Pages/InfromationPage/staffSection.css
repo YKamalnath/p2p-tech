@@ -1,0 +1,144 @@
+.staff-container{
+
+    width: 100%;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: var(--white-color);
+}
+
+.our-academic{
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    letter-spacing: 2px;
+    padding: 20px;
+
+}
+.inspiring-minds{
+
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 70px;
+}
+
+.staff-layout{
+
+    max-width: 1400px;
+    width: 100%;
+
+    height: 600px;
+
+    
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.staff-box{
+
+    height: 241px;
+    width: 205px;
+    background-color: #FAFAFAE5;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.staff-img{
+    width: 65px;
+}
+
+
+.staff-name{
+
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--jet-black);
+}
+
+
+.staff-role{
+
+    font-size: 12px;
+    font-weight: 600;
+    color: var(  --secondary-color);
+}
+
+
+.staff-description{
+
+    font-size: 9px;
+    font-weight: 500;
+    color: var(--text-color-secondary);
+    text-align: center;
+    
+}
+
+.staff-icon-layout{
+
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .inspiring-minds {
+       
+        text-align: center;
+    }
+    .staff-layout {
+        width: 500px; 
+
+       
+       
+        overflow-x: scroll; 
+       
+        gap: 100px;
+       
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .staff-container{
+
+        
+        height: 3050px;
+    
+    }
+    .staff-layout {
+        flex-direction: row; 
+        overflow-y: scroll; 
+        height: auto; 
+        max-height: 2750px; 
+
+        justify-content: center;
+
+        width: 200px;
+        
+    }
+
+    .staff-box {
+        margin-bottom: 10px; 
+    }
+}

@@ -1,0 +1,271 @@
+/* General Page Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f8fb;
+}
+
+.title-intro{
+  height: 140px;
+  /* width: 200px; */
+}
+
+/* Container for the entire services section */
+.services-container-2 {
+  /* content: ''; */
+  max-width: 1400px;
+  width: 100%;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url('../../assets/OurService/image-tf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8; /* Set your desired opacity */
+ 
+}
+
+/* Main title */
+.title {
+  font-size: 3rem;
+  color: #0b5394;
+  margin-bottom: 15px;
+}
+
+/* Introductory text */
+.intro {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Grid layout for the service cards */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 10px;
+}
+
+/* Individual service cards */
+/* .service-card {
+  background-color: #e8f3ff;
+  padding: 25px 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+  position: relative;
+}
+
+.service-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+} */
+
+.service-card {
+  position: relative;
+  border-radius: 12px;
+  color: white;
+  padding: 20px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+   filter: brightness(0.9);
+}
+
+.service-card:hover {
+  transform: scale(1.03);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay */
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+
+/* Icon at the top of each card */
+.icon {
+  font-size: 3rem;
+  color: #0b5394;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Title of the service */
+.service-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #f4f5f7;
+  margin-bottom: 12px;
+}
+
+/* Description under each title */
+.service-description {
+  font-size: 1rem;
+  color: #fad8d8;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* List of benefits */
+.benefits-list {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-list li {
+  font-size: 0.95rem;
+  color: #e6dddd;
+  margin-bottom: 8px;
+  padding-left: 22px;
+  position: relative;
+}
+
+.benefits-list li::before {
+  content: '✔';
+  color: #0b5394;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Book meeting button */
+.book-meeting-btn {
+  background-color: #0b5394;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.book-meeting-btn:hover {
+  background-color: #063c6e;
+  transform: translateY(-2px);
+}
+
+/* Meeting request form */
+.meeting-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f8ff;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.meeting-form input,
+.meeting-form textarea {
+  padding: 12px 14px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  /* width: 100%; */
+  font-family: inherit;
+  resize: none;
+}
+
+.meeting-form textarea {
+  height: 120px;
+}
+
+.meeting-form button {
+  background-color: #0b5394;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.meeting-form button:hover {
+  background-color: #063c6e;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .services-container-2 {
+    width: auto;}
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+
+  .service-title {
+    font-size: 1.4rem;
+  }
+
+  .service-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+
+  .service-title {
+    font-size: 1.2rem;
+  }
+
+  .service-description {
+    font-size: 0.9rem;
+  }
+
+  .benefits-list li {
+    font-size: 0.85rem;
+  }
+
+  .meeting-form {
+    padding: 20px;
+  }
+}
+
+
+@media (max-width: 480px) {
+.services-grid {
+  display: grid;
+  grid-template-columns: none;
+}
+
+}

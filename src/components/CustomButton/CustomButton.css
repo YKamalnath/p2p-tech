@@ -1,0 +1,162 @@
+.button {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 9px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  margin-right: 6px;
+  /* margin-top: 60px; */
+  font-size: 16px;
+  font-weight: 700 !important;
+  width: auto;
+  height: 38px;
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+  border: #3C8490;
+}
+
+
+
+.submit:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+
+.login {
+  background-color: #3C8490;
+  border: none;
+  color: white;
+  padding: 9px 10px;
+  margin: 3px;
+  border-radius: 10px;
+  margin-right: 6px;
+  font-size: 20px;
+  font-weight: 700 !important;
+  width: 346px;
+  height:55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cancel-btn {
+  background-color: #ffffff;
+  border: none;
+  color: #0173A7;
+  padding: 9px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600 !important;
+  width: 200px;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 10px;
+border: 1px solid var(--Primary-Color, #0173A7);
+}
+
+
+.bluebtn{
+  width: 136px;
+  height: 32.54px;
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 600 !important;
+  border-radius:30px;
+
+
+}
+
+.bluebtn-secondary{
+  width: 136px;
+  height: 32.54px;
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 600 !important;
+  border-radius:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0px 14px 16px #CA40402E;
+}
+
+
+
+
+.button-contact{
+  width: 161px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: var(--secondary-blue);
+  color: var(--white-color);
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 600 !important;
+  font-size: 16px;
+}
+
+
+
+
+.Englishbtn{
+
+  width: 152px;
+  height: 41px;
+   border-radius:30px;
+   background-color: transparent; 
+  color: #000000;
+   border: 3px solid #FFD700;
+   font-size: 14px;
+   font-weight: 400 !important;
+}
+
+.button-icon {
+  width: 17.53px; 
+  height: 14.72px; 
+  margin-left: 8px;
+ 
+}
+
+
+.LearnMoreBtn{
+
+    color: #333333;
+  background-color: #FFD700;
+  border-radius:30px;
+  width: 157px;
+  height: 36px;
+  font-size: 14px;
+   font-weight: 500 !important;
+}
+
+
+ /* Mobile styles */
+ @media only screen and (max-width: 600px) {
+  .submit,.cancel-btn {
+ 
+    min-width: auto;
+    width: fit-content;
+}
+
+.Englishbtn{
+
+  min-width: auto;
+    width: fit-content;
+
+}
+ }
