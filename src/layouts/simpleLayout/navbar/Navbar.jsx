@@ -160,7 +160,7 @@ const handlePasswordChange = (e) => {
 
               {!isAuthenticated ? (
                 <li>
-                  <button 
+                  {/* <button 
                   // onClick={handleSignupClick} 
                   className="submit signin-button">
                     Get Started 
@@ -169,7 +169,7 @@ const handlePasswordChange = (e) => {
                   // onClick={handleLoginClick} 
                   className="green-border signin-button">
                     Learn more
-                  </button>
+                  </button> */}
                 </li>
               ) : (
                 <li>

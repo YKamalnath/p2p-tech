@@ -1,7 +1,7 @@
 .staff-container{
 
     width: 100%;
-    height: 1000px;
+    height: 800px;
 
     display: flex;
     flex-direction: column;
@@ -27,22 +27,14 @@
     padding-bottom: 70px;
 }
 
-.staff-layout{
-
-    max-width: 1400px;
-    width: 100%;
-
-    height: 600px;
-
-    
-
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: column;
-
+.staff-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
     align-items: center;
-
+    max-width: 600px;
+    width: 100%;
 }
 
 .staff-box{
@@ -123,19 +115,11 @@
     .staff-container{
 
         
-        height: 3050px;
+        height: 1050px;
     
     }
     .staff-layout {
-        flex-direction: row; 
-        overflow-y: scroll; 
-        height: auto; 
-        max-height: 2750px; 
-
-        justify-content: center;
-
-        width: 200px;
-        
+        grid-template-columns: 1fr;
     }
 
     .staff-box {

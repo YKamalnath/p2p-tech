@@ -1,10 +1,14 @@
 .WhoCanUse {
-  margin-top: 850px;
+    margin-top: 850px;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 20px 0px 0px 0px;
     justify-content: space-between;
+    padding: 20px; /* optional: adds spacing inside the box */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* adds a soft shadow */
+    background-color: #fff; /* optional: ensures it stands out from the background */
+    border-radius: 20px;
   }
   .whocanuse-image {
     max-width: 600px;
@@ -53,4 +57,8 @@
       max-width: 500px;
     }
   }
-  
+
+  @media (min-width: 1800px) {
+  .WhoCanUse {
+    margin-top: 950px;}
+  }

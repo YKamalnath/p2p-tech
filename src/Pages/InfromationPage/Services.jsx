@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./Services.css";
 import ServicesIcon from "../../assets/Images/cv-png.svg";
+import { useNavigate } from "react-router-dom";
 
 const Services = () => {
+  const navigate = useNavigate();
   const ServicesData = [
     {
       heading: "Custom Software Development",
@@ -17,6 +19,10 @@ const Services = () => {
       des: "Our experienced IT consultants provide strategic advice to improve your technology infrastructure and operations. We also offer ongoing support to ensure smooth business operations.",
     },
   ];
+
+  const handleLearnMore = () => {
+    navigate("/service-detail");
+  };
 
   return (
     <div className="main-services-container">
@@ -37,7 +43,7 @@ const Services = () => {
               />
               <div className="services-sub-heading">{data.heading}</div>
               <div className="services-des">{data.des}</div>
-              <button className="custombtn">Learn More</button>
+              <button className="custombtn"  onClick={handleLearnMore}>Learn More</button>
             </div>
           </div>
         ))}

@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </section>
         <section class="footer-links">
-          <h6>P2P Tech Solutions</h6>
+          <h6>P2P Tech</h6>
           <ul>
             <li>
               <a href="/ourServices">Our Services</a>
@@ -90,7 +90,7 @@ const Footer = () => {
           </ul>
         </section>
 
-        <section class="footer-links learnig-hub-footer-column">
+        {/* <section class="footer-links learnig-hub-footer-column">
           <h6>Services</h6>
           <ul>
             <li>
@@ -103,7 +103,7 @@ const Footer = () => {
               <a href="/ourServices">E-books</a>
             </li>
           </ul>
-        </section>
+        </section> */}
 
         <section class="footer-links">
           <h6>Help</h6>
