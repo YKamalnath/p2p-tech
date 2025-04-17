@@ -1,7 +1,7 @@
 .nav-container {
     display: flex;
     justify-content: center;
-    background-color: #adadb4;
+    background-color: #26265f;
     padding: 8px 100px 8px 100px;
     
   }
@@ -57,7 +57,7 @@
   
   .navbar-container a {
     text-decoration: none;
-    color: var(--white-color);
+    color: #ffffff;
     font-family: Lexend;
     font-size: 12px;
     font-weight: 400;
@@ -380,7 +380,7 @@ input:focus {
       right: 0;
       height: 500px;
       z-index: 999;
-      background: #9d9da7;
+      background: #26265f;
       top: 0;
       padding: 0;
       margin: 0;
@@ -418,7 +418,7 @@ input:focus {
       position: absolute;
       right: 0;
       z-index: 999;
-      background: #adadb4;
+      background: #26265f;
       top: 0;
       height: 100vh;
       width: 100vw;
