@@ -121,8 +121,8 @@ const handlePasswordChange = (e) => {
   const links = [
     { text: "Our Services", href: "/our_Service" },
     // { text: "Our Goal", href: "/Our_Goal" },
-    { text: " Our executives", href: "/Doctor_Details" },
-    { text: "FAQ", href: "/aboutUs" },
+    { text: " Our executives", href: "/Our_executives" },
+    { text: "FAQ", href: "/FAQ" },
     // { text: "Help", href: "/_Help" },
   ];
 

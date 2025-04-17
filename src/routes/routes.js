@@ -21,10 +21,10 @@ export default function AppRoutes() {
       element: <SimpleLayout />, // Wrap main routes with SimpleLayout
       children: [
         { path: '', element: <InformationPage /> },
-        { path: '/aboutUs', element: <AboutUs /> },
+        { path: '/FAQ', element: <AboutUs /> },
         { path: '/our_Service', element: <OurService/> },
         { path: '/Our_Goal', element: <OurGoal/> },
-        { path: '/Doctor_Details', element: <DoctorDetails/> },
+        { path: '/Our_executives', element: <DoctorDetails/> },
         { path: '/_Help', element: <Help/> },
         { path: '/service-detail', element: <ServiceDeatiles/> },
       ],

@@ -53,7 +53,7 @@ const Footer = () => {
           <h6>P2P Tech</h6>
           <ul>
             <li>
-              <a href="/ourServices">Our Services</a>
+              <a href="/our_Service">Our Services</a>
             </li>
             <li>
               <a href="/ourServices">Solutions</a>
@@ -61,11 +61,11 @@ const Footer = () => {
             <li>
               <a href="/ourServices">About Us</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/aboutus">Careers</a>
-            </li>
+            </li> */}
             <li>
-              <a href="/questions">Support</a>
+              <a href="/Our_executives">our executives</a>
             </li>
           </ul>
         </section>
@@ -74,15 +74,15 @@ const Footer = () => {
           <h6>Our Services</h6>
           <ul>
             <li>
-              <a href="/ourServices">Software Development</a>
+              <a href="/our_Service">Software Development</a>
             </li>
             <li>
-              <a href="/ourServices">Cloud Computing</a>
+              <a href="/our_Service">Cloud Computing</a>
             </li>
-            <li><a href="/services">Cybersecurity</a></li>
+            <li><a href="/our_Service">Cybersecurity</a></li>
             
             <li>
-              <a href="/ourServices">
+              <a href="/our_Service">
               Resources
               </a>
             </li>
@@ -109,14 +109,14 @@ const Footer = () => {
           <h6>Help</h6>
           <ul>
             <li>
-              <a href="/questions">FAQs</a>
+              <a href="/FAQ">FAQs</a>
             </li>
             <li>
-              <a href="/contactForm">Contact Form</a>
+              <a href="/our_Service?openBooking=true">Contact Form</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/provideFeedback">Feedback</a>
-            </li>
+            </li> */}
           </ul>
         </section>
       </div>
