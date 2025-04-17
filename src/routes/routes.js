@@ -9,7 +9,8 @@ import OurGoal from "../containers/OurGoal/ourGoal"
 import DoctorDetails from "../containers/DoctorsDetails/DoctorsDetails"
 import Help from "../containers/Help/Help"
 import ServiceDeatiles from "../Pages/ServiceDetailPage/ServiceDetail"
-
+import AboutUsPage from '../Pages/AboutUsPage/index';
+import SolutionPage from '../Pages/SolutionPage/index';
 
 
 
@@ -26,7 +27,9 @@ export default function AppRoutes() {
         { path: '/Our_Goal', element: <OurGoal/> },
         { path: '/Our_executives', element: <DoctorDetails/> },
         { path: '/_Help', element: <Help/> },
+        { path: '/About_Us', element: <AboutUsPage/> },
         { path: '/service-detail', element: <ServiceDeatiles/> },
+        { path: '/Solution_Page', element: <SolutionPage/> },
       ],
     },
       

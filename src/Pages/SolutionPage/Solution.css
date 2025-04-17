@@ -1,0 +1,101 @@
+.solution-container {
+    padding: 2rem;
+    background-color: #f4f7fa;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .solution-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .solution-header h1 {
+    font-size: 2.5rem;
+    color: #0f62fe;
+  }
+  
+  .solution-header p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .solution-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .solution-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .solution-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .solution-card h2 {
+    color: #0f62fe;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tech-stack-section {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .tech-stack-section h2 {
+    color: #222;
+    margin-bottom: 1rem;
+  }
+  
+  .stack-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .stack-grid span {
+    background-color: #e0e7ff;
+    color: #1e3a8a;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    font-weight: 500;
+  }
+  
+  /* Footer */
+  .solution-footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ccc;
+    color: #555;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .solution-header h1 {
+      font-size: 2rem;
+    }
+    
+    .solution-card {
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .solution-header p {
+      font-size: 1rem;
+    }
+  
+    .stack-grid span {
+      font-size: 0.9rem;
+      padding: 0.5rem 0.8rem;
+    }
+  }
+  

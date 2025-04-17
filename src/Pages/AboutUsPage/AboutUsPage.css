@@ -1,0 +1,94 @@
+.about-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    padding: 2rem;
+    background-color: #f9fafb;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    color: #0f62fe;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .about-section,
+  .mission-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .about-image img,
+  .mission-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .about-text,
+  .mission-text {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .about-text h2,
+  .mission-text h2 {
+    color: #0f62fe;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-text p,
+  .mission-text p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .about-footer {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid #ddd;
+    color: #666;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .about-section,
+    .mission-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-text,
+    .mission-text {
+      margin-top: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-header h1 {
+      font-size: 2rem;
+    }
+  
+    .about-header p {
+      font-size: 1rem;
+    }
+  
+    .about-text p,
+    .mission-text p {
+      font-size: 0.95rem;
+    }
+  }
+  
