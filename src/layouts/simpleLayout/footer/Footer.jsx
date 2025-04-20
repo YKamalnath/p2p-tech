@@ -22,7 +22,9 @@ const Footer = () => {
     <footer>
       <div class="footer-container">
         <section class="footer-about">
-          <img className="company-icon" src={footerLogo} alt="company-icon" />
+        <a href="/" className="logo-link">
+          <img  className="company-icon" src={footerLogo} alt="company-icon"  />
+          </a>
           <p>
           Empowering businesses through innovative technology solutions and expert IT consulting tailored to drive digital transformation and growth.
           </p>

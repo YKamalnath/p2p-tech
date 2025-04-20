@@ -50,9 +50,9 @@ function Solution() {
         </div>
       </section>
 
-      <footer className="solution-footer">
+      {/* <footer className="solution-footer">
         <p>© {new Date().getFullYear()} P2P Tech – Delivering Intelligent IT Solutions.</p>
-      </footer>
+      </footer> */}
     </div>
   );
 }

@@ -38,9 +38,9 @@ function AboutUsPage() {
         </div>
       </section>
 
-      <footer className="about-footer">
+      {/* <footer className="about-footer">
         <p>© {new Date().getFullYear()} P2P Tech. Trusted IT Solutions for Modern Businesses.</p>
-      </footer>
+      </footer> */}
     </div>
   );
 }

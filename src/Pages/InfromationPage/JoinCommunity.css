@@ -82,4 +82,8 @@
   .main-joincommunity-container > div {
     background-image: none;
   }
+
+  .main-joincommunity-container {
+    margin-bottom: 50px;
+}
 }

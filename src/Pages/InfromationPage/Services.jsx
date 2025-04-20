@@ -71,13 +71,13 @@ const Services = () => {
       des: "We specialize in building custom software solutions tailored to your business needs. From web applications to enterprise systems, our team ensures the highest quality and performance.",
     },
     {
-      heading: "Cloud Solutions",
+      heading: "Cloud Solutions & IT Consulting",
       des: "Transform your business with scalable and secure cloud solutions. We help you migrate, optimize, and manage your cloud infrastructure for maximum efficiency.",
     },
-    {
-      heading: "IT Consulting & Support",
-      des: "Our experienced IT consultants provide strategic advice to improve your technology infrastructure and operations. We also offer ongoing support to ensure smooth business operations.",
-    },
+    // {
+    //   heading: "IT Consulting & Support",
+    //   des: "Our experienced IT consultants provide strategic advice to improve your technology infrastructure and operations. We also offer ongoing support to ensure smooth business operations.",
+    // },
   ];
 
   // Auto-scroll every 3 seconds (mobile only)
