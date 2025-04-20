@@ -78,7 +78,7 @@ function OurService() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { name, email, message } = e.target.elements;
+    const { name, email, message , date, time } = e.target.elements;
 
     try {
       const response = await fetch('http://localhost:5000/send-email', {
@@ -90,6 +90,8 @@ function OurService() {
           name: name.value,
           email: email.value,
           message: message.value,
+          date: date.value,
+          time: time.value,
         }),
       });
 
@@ -158,14 +160,14 @@ function OurService() {
       </button>
 
       {showForm && (
-        <form id="booking-form" className="meeting-form"
-        onSubmit={handleSubmit}
-        >
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" placeholder="Tell us what you need..." required></textarea>
-          <button type="submit">Send Request</button>
-        </form>
+        <form id="booking-form" className="meeting-form" onSubmit={handleSubmit}>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="date" name="date" required />
+        <input type="time" name="time" required />
+        <textarea name="message" placeholder="Tell us what you need..." required></textarea>
+        <button type="submit">Send Request</button>
+      </form>      
       )}
     </div>
   );
