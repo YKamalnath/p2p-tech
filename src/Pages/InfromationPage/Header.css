@@ -84,15 +84,15 @@
 
   .back_img {
     
-    position: relative;
+    /* position: relative; */
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: background-image 1s ease-in-out;
-
-    margin-top: -119px;
+/* 
+    margin-top: -119px; */
 
     display: flex;
     flex-direction: column;

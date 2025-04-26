@@ -124,7 +124,7 @@ const Footer = () => {
       </div>
       <hr class="centered-hr"></hr>
       <div class="footer-bottom">
-        <div>P2P Tech Solutions © 2025. All Rights Reserved.</div>
+        <div>P2P Tech © 2025. All Rights Reserved.</div>
         <div>
           <div>Privacy Policy</div>
           <div>Cookie Policy</div>

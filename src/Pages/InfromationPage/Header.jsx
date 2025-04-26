@@ -33,7 +33,7 @@ const Landing = () => {
   return (
 
     
-    <div className="back_img" style={{position:`absolute`,
+    <div className="back_img" style={{
       backgroundImage: `radial-gradient(50% 50% at 50% 50%, rgba(15, 45, 118, 0.73) 0%, rgba(0, 29, 102, 0.73) 100%), url(${images[currentImage]})`
   }}>
       
