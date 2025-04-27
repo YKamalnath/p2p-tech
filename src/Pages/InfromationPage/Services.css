@@ -15,7 +15,7 @@
 }
 
 .custombtn {
-  background-color: #787879;
+  background: linear-gradient(135deg, #007bff, #0062cc);
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -28,7 +28,7 @@
 }
 
 .custombtn:hover {
-  background-color: #0056b3;
+  background: linear-gradient(135deg, #007bff, #073e79);
 }
 
 .services-heading-des {
@@ -45,7 +45,7 @@
   width: 60px;
   height: auto;
   border-radius: 10px;
-  background: linear-gradient(to bottom, #4b4c4d, #e1e5e9);
+  background: linear-gradient(135deg, #007bff, #00bfff);
 }
 
 .services-icon-image:hover {
@@ -74,7 +74,7 @@
 }
 
 .sub-services-container:hover .services-icon-image {
-  background: linear-gradient(to bottom, #090a0a, #f7f8f7);
+  background: linear-gradient(135deg, #007bff, #063364);
 }
 
 .sub-services-container > div {
@@ -115,7 +115,7 @@
 }
 
 .carousel-btn {
-  background-color: #204164;
+  background: linear-gradient(135deg, #007bff, #0062cc);
   color: #fff;
   font-size: 24px;
   border: none;

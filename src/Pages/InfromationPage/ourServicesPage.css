@@ -1,0 +1,130 @@
+.services-container-w {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.services-subtitle {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.service-card-r {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card-r:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-color: rgba(52, 152, 219, 0.2);
+}
+
+.service-icon-container {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.service-card-r h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.service-card-r p {
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.service-highlight {
+  background: #f8f9fa;
+  padding: 8px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 600;
+  color: #007bff;
+  align-self: flex-start;
+}
+
+.see-all-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #007bff, #0062cc);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  gap: 8px;
+}
+
+.see-all-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(0, 123, 255, 0.4);
+  background: linear-gradient(135deg, #0062cc, #007bff);
+}
+
+.btn-icon {
+  transition: transform 0.3s ease;
+}
+
+.see-all-btn:hover .btn-icon {
+  transform: translateX(3px);
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .services-header h1 {
+    font-size: 2rem;
+  }
+}
+  
+  

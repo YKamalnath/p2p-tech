@@ -155,12 +155,12 @@
 
 /* Explore Our Services button */
 .explore-btn {
-  background-color: #007bff; /* Golden Yellow */
-  color: #000;
+    color: #ffffff;
+    background: linear-gradient(135deg, #007bff, #0062cc);
 }
 
 .explore-btn:hover {
-  background-color: #1070d6; /* Slightly darker yellow */
+  background: linear-gradient(135deg, #007bff, #063364);
   transform: translateY(-2px);
 }
 
@@ -172,8 +172,8 @@
 }
 
 .meet-the-team-btn:hover {
-  background-color: #007bff;
-  color: #000;
+  background: linear-gradient(135deg, #007bff, #0062cc);
+  color: #f5f5f5;
   transform: translateY(-2px);
 }
 

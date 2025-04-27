@@ -1,6 +1,9 @@
 import React from 'react';
 import "./InformationPage.css"
 import Header from "../../Pages/InfromationPage/Header";
+import WhatWeDo  from "../../Pages/InfromationPage/ourServices";
+import WhyChooseUs  from "../../Pages/InfromationPage/WhyChooseUs";
+import AboutUs  from "../../Pages/InfromationPage/AboutUShome";
 import WhoCanUse from "../../Pages/InfromationPage/WhoCanUse";
 import Services from "../../Pages/InfromationPage/Services";
 import SuccessStories from "../../Pages/InfromationPage/SuccessStories";
@@ -13,10 +16,13 @@ const InformationPage = () => {
     <>
     <Header />
     <div className="main-home-container">
+    <WhatWeDo/>
+    <WhyChooseUs/>
+    <AboutUs/>
     <WhoCanUse />
     <Services />
-    <SuccessStories />
-    <Staff/>
+    {/* <SuccessStories /> */}
+    {/* <Staff/> */}
     {/* <Questions /> */}
     <JoinCommunity />
 

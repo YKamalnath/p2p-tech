@@ -1,5 +1,5 @@
 /* General Styles */
-body {
+/* body {
   font-family: 'DM Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -26,10 +26,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-  }
+  } */
   
   /* FAQ Section */
-  .faq-section {
+  /* .faq-section {
     background-color: #e8f4ff;
     padding: 20px;
     border-radius: 10px;
@@ -55,10 +55,10 @@ body {
     color: #555;
     margin-top: 5px;
     line-height: 1.6;
-  }
+  } */
   
   /* Contact Section */
-  .contact-section {
+  /* .contact-section {
     background-color: #ffe6e6;
     padding: 20px;
     border-radius: 10px;
@@ -108,10 +108,10 @@ body {
   
   .contact-form button:hover {
     background-color: #004090;
-  }
+  } */
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
 
     .contact-form input, .contact-form textarea {
       width: 90%;}
@@ -144,5 +144,5 @@ body {
     .faq p, .contact-form label {
       font-size: 0.8rem;
     }
-  }
+  } */
   

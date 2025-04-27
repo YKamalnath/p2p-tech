@@ -49,7 +49,7 @@ const Landing = () => {
 
           <div>
               <button className="explore-btn" onClick={() => navigate('/our_Service')}> Explore Our Services</button>
-              <button className="meet-the-team-btn" onClick={() => navigate('/our_Service')} >Meet the Team</button>
+              <button className="meet-the-team-btn" onClick={() => navigate('/About_Us')} >Meet the Team</button>
           </div>
 
           <div className="text-container">
