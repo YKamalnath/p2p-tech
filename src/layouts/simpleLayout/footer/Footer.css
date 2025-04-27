@@ -93,7 +93,7 @@ footer {
   .footer-bottom > div:first-child {
     margin: 0;
     color: #717173;
-    font-family: Lexend;
+    font-family: 'DM Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
@@ -102,7 +102,7 @@ footer {
   .footer-bottom > div:nth-child(2) {
     display: flex;
     flex-direction: row;
-    font-family: Lexend;
+    font-family: 'DM Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
@@ -117,7 +117,7 @@ footer {
   
   .footer-company-name {
     color: #eaecf0;
-    font-family: Inter;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 24px; /* 75% */
@@ -125,7 +125,7 @@ footer {
   
   .footer-about p {
     color: #eaecf0;
-    font-family: Lexend;
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -148,7 +148,7 @@ footer {
   .footer-links ul li,
   .footer-contact li {
     color: #eaecf0;
-    font-family: Lexend;
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 10px;

@@ -570,7 +570,7 @@ input:focus {
   color: #333;
   font-weight: 500;
   font-size: inherit;
-  font-family: inherit;
+  font-family: 'DM Sans', sans-serif;
   cursor: pointer;
   padding: 0.5rem 0;
   display: flex;
@@ -624,7 +624,7 @@ input:focus {
 
 /* Secondary Navigation Styles */
 .secondary-nav {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   background-color: #f8f9fa;
   padding: 2rem;
   color: #333;

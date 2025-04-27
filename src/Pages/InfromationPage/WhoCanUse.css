@@ -28,7 +28,7 @@
   }
   
   .whocanuse-des-container > div:first-child {
-    font-family: Lexend;
+    font-family: 'DM Sans', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
@@ -37,7 +37,7 @@
   }
   
   .whocanuse-des-container > div:nth-child(2) {
-    font-family: Lexend;
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
