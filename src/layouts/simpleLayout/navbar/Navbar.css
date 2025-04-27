@@ -579,8 +579,7 @@ input:focus {
 }
 
 .dropdown-arrow {
-  font-size: 0.7rem;
-  transition: transform 0.2s;
+  width: 10px;
 }
 
 .dropdown-arrow.open {

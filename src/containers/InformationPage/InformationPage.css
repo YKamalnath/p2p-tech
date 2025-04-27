@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 10px 100px 50px 100px;
     gap: 80px;
+    align-items: center;
   }
   
   .main-discussion-form-container {

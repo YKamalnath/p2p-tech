@@ -1,5 +1,5 @@
 
-// import React from 'react';
+
 import "./Header.css";
 
 import React, { useState, useEffect } from 'react';
@@ -8,11 +8,14 @@ import cover2 from '../../assets/Cover_img/Dark-lep.jpg';
 import cover3 from '../../assets/Cover_img/Roboto.webp';
 import cover4 from '../../assets/Cover_img/photo-01.jpg';
 import cover5 from '../../assets/Cover_img/123image.png';
-// import CustomButton from "../../../../components/CustomButton/CustomButton";
+import { useNavigate } from 'react-router-dom';
+
 
 const Landing = () => { 
   const images = [cover1, cover2, cover3, cover4, cover5];
   const [currentImage, setCurrentImage] = useState(0);
+  const navigate = useNavigate();
+
 
   const handleIndicatorClick = (index) => {setCurrentImage(index);}
 
@@ -33,15 +36,25 @@ const Landing = () => {
   return (
 
     
-    <div className="back_img" style={{
-      backgroundImage: `radial-gradient(50% 50% at 50% 50%, rgba(15, 45, 118, 0.73) 0%, rgba(0, 29, 102, 0.73) 100%), url(${images[currentImage]})`
-  }}>
+    <div className="back_img" 
+  //   style={{
+  //     backgroundImage: `radial-gradient(50% 50% at 50% 50%, rgba(15, 45, 118, 0.73) 0%, rgba(0, 29, 102, 0.73) 100%), url(${images[currentImage]})`
+  // }}
+  >
       
       <div className="main-containerh">
         <div className="content-container">
-          <p className="top-text">Empowering Innovation Through</p>
+          {/* <p className="top-text">Empowering Innovation Through</p> */}
           <h1 className="main-heading">Height Quality Software<span className="yellow">Development</span></h1>
+
+          <div>
+              <button className="explore-btn" onClick={() => navigate('/our_Service')}> Explore Our Services</button>
+              <button className="meet-the-team-btn" onClick={() => navigate('/our_Service')} >Meet the Team</button>
+          </div>
+
           <div className="text-container">
+            
+
             <p className="description">
               
              
@@ -60,6 +73,12 @@ const Landing = () => {
             alt="Description"
             className="custom-image"
           /> */}
+
+          <div className="hero-section-image"
+          style={{
+                backgroundImage: `url(${images[currentImage]})`
+           }}
+          > </div>
 
           <div className="carousel-indicators">
                   {images.map((_, index) => (

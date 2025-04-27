@@ -322,6 +322,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from "react-router-dom";
 import Logo from "../../../assets/Images/logo-p2p.png";
+import ArrowDownIcon from "../../../assets/arrow-down-sign-to-navigate.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -361,7 +362,13 @@ const Navbar = () => {
                 aria-expanded={isResourcesOpen}
               >
                 Resources
-                <span className={`dropdown-arrow ${isResourcesOpen ? 'open' : ''}`}>▼</span>
+                {/* <span className={`dropdown-arrow ${isResourcesOpen ? 'open' : ''}`}>▼</span> */}
+                <img 
+                src={ArrowDownIcon} 
+                alt="Dropdown arrow" 
+                className={`dropdown-arrow ${isResourcesOpen ? 'open' : ''}`} 
+              />
+
               </button>
               {/* {isResourcesOpen && (
                 <div className="dropdown-content">
