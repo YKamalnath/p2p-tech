@@ -64,7 +64,7 @@
   /* Origin Story / Timeline */
   .origin-story {
     padding: 100px 0;
-    background-color: #f7fafc;
+    /* background-color: #f7fafc; */
   }
   
   .timeline {
@@ -171,7 +171,7 @@
   /* Solution Section */
   .solution-section {
     padding: 100px 0;
-    background: #f7fafc;
+    /* background: #f7fafc; */
   }
   
   .solution-features {
@@ -206,7 +206,7 @@
   /* Milestones */
   .milestones-section {
     padding: 100px 0;
-    background: white;
+    /* background: white; */
   }
   
   .milestones-grid {

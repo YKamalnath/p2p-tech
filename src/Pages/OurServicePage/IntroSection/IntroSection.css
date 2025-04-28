@@ -1,0 +1,248 @@
+/* Base Styles */
+.intro-section {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d3748;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Hero Section */
+  .services-hero {
+    background: linear-gradient(135deg, #007bff, #00bfff);
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .services-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+  
+  /* Section Header */
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #2d3748;
+  }
+  
+  .divider {
+    width: 80px;
+    height: 4px;
+    background: #2563eb;
+    margin: 0 auto 20px;
+  }
+  
+  .section-subtitle {
+    font-size: 1.2rem;
+    color: #4a5568;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* What We Offer Section */
+  .offer-section {
+    padding: 100px 0;
+    /* background-color: #f7fafc; */
+  }
+  
+  .services-grid-in {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .service-card-in {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-icon {
+    width: 70px;
+    height: 70px;
+    background: rgba(37, 99, 235, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    color: #2563eb;
+    font-size: 1.8rem;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #1e40af;
+  }
+  
+  .service-card p {
+    color: #4a5568;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .service-features {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+  }
+  
+  .service-features li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    color: #4a5568;
+  }
+  
+  .service-features svg {
+    color: #2563eb;
+    margin-right: 10px;
+    min-width: 20px;
+  }
+  
+  /* Who We Help Section */
+  .clients-section {
+    padding: 100px 0;
+    /* background: white; */
+  }
+  
+  .client-types {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .client-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .client-card:hover {
+    background: #2563eb;
+    color: white;
+  }
+  
+  .client-card:hover h3,
+  .client-card:hover p {
+    color: white;
+  }
+  
+  .client-icon {
+    width: 70px;
+    height: 70px;
+    background: rgba(37, 99, 235, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    color: #2563eb;
+    font-size: 1.8rem;
+  }
+  
+  .client-card:hover .client-icon {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .client-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #1e40af;
+  }
+  
+  .client-card p {
+    color: #4a5568;
+  }
+  
+  /* CTA Section */
+  .services-cta {
+    background: linear-gradient(135deg, #007bff, #00bfff);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .services-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .services-cta p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background: white;
+    color: #2563eb;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .services-hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.2rem;
+    }
+    
+    .section-header h2 {
+      font-size: 2rem;
+    }
+    
+    .services-cta h2 {
+      font-size: 2rem;
+    }
+  }

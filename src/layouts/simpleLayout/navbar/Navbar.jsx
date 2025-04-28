@@ -71,7 +71,7 @@ const Navbar = () => {
             </div>
             
             <Link to="/About_US">About US</Link>
-            <Link to="/FAQ">FAQ</Link>
+            {/* <Link to="/FAQ">FAQ</Link> */}
           </div>
         </div>
       </nav>

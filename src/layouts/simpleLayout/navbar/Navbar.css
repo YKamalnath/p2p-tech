@@ -737,9 +737,9 @@ input:focus {
     border-bottom: 1px solid #eee;
   }
 
-  .dropdown-container {
+  /* .dropdown-container {
     width: 100%;
-  }
+  } */
 
   .dropdown-content {
     position: static;

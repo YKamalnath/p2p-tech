@@ -82,6 +82,7 @@
   flex-direction: column;
   padding: 35px;
   gap: 15px;
+  background-color: #ffffff;
 }
 
 .services-sub-heading {

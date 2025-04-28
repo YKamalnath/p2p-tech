@@ -4,7 +4,7 @@ import SimpleLayout from "../layouts/simpleLayout/simpleLayout";
 import InformationPage from '../containers/InformationPage/InformationPage';
 // import DoctorDashboard from '../Pages/Doctor/Dashboard/DoctorDashboard';
 import AboutUs from '../containers/AboutUs/AboutUs';
-import OurService from '../containers/OurService/ourService';
+import OurService from '../Pages/OurServicePage/index';
 import OurGoal from "../containers/OurGoal/ourGoal"
 import DoctorDetails from "../containers/DoctorsDetails/DoctorsDetails"
 import Help from "../containers/Help/Help"

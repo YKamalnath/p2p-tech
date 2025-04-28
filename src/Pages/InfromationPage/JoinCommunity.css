@@ -2,6 +2,7 @@
   padding: 60px 0;
   background: white;
   width: 100%;
+  max-width: 1200px;
 }
 
 .main-joincommunity-container > div {
