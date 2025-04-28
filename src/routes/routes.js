@@ -25,7 +25,7 @@ export default function AppRoutes() {
         { path: '/FAQ', element: <AboutUs /> },
         { path: '/our_Service', element: <OurService/> },
         { path: '/Our_Goal', element: <OurGoal/> },
-        { path: '/Our_executives', element: <DoctorDetails/> },
+        // { path: '/_About_US', element: <DoctorDetails/> },
         { path: '/_Help', element: <Help/> },
         { path: '/About_Us', element: <AboutUsPage/> },
         { path: '/service-detail', element: <ServiceDeatiles/> },

@@ -1,4 +1,4 @@
-.about-container {
+/* .about-container {
   font-family: 'DM Sans', sans-serif;
     color: #222;
     padding: 2rem;
@@ -63,7 +63,7 @@
     color: #666;
   }
   
-  /* Media Queries */
+ 
   @media (max-width: 768px) {
     .about-section,
     .mission-section {
@@ -90,5 +90,16 @@
     .mission-text p {
       font-size: 0.95rem;
     }
+  } */
+
+  .b12-m-wt{
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
   }
-  
+  .about-us-parent-class{
+
+    max-width: 1200px;
+    width: 100%;
+  }
