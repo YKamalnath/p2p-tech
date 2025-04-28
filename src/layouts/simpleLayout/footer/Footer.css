@@ -5,7 +5,7 @@ footer {
     align-items: center;
     /* padding: 57px 60px 20px 60px; */
     padding: 30px 100px;
-    background-color: #0b0b1b;
+    background-color: #525268;
   }
   .footer-container {
     display: flex;
@@ -34,7 +34,7 @@ footer {
     all: unset;
     font-size: var(--medium-font-size);
     font-weight: 600;
-    color: #989b9d;
+    color: #b4bec5;
     text-align: left;
   }
   .footer-container li,
@@ -92,7 +92,7 @@ footer {
   
   .footer-bottom > div:first-child {
     margin: 0;
-    color: #717173;
+    color: #f1f1fa;
     font-family: 'DM Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -107,7 +107,7 @@ footer {
     font-weight: 400;
     line-height: 18px;
     text-align: left;
-    color: #717173;
+    color: #e4e4ec;
     gap: 10px;
   }
   
@@ -175,7 +175,7 @@ footer {
   .centered-hr {
     width: 100%;
     margin: 0 auto;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffffff;
   }
   
  

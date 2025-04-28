@@ -55,70 +55,33 @@ const Footer = () => {
           <h6>P2P Tech</h6>
           <ul>
             <li>
-              <a href="/our_Service">Our Services</a>
-            </li>
-            <li>
-              <a href="/Solution_Page">Solutions</a>
-            </li>
-            <li>
-              <a href="/About_Us">About Us</a>
-            </li>
-            {/* <li>
-              <a href="/aboutus">Careers</a>
-            </li> */}
-            <li>
-              <a href="/Our_executives">our executives</a>
-            </li>
-          </ul>
-        </section>
-
-        <section class="footer-links">
-          <h6>Our Services</h6>
-          <ul>
-            <li>
-              <a href="/our_Service">Software Development</a>
-            </li>
-            <li>
-              <a href="/our_Service">Cloud Computing</a>
-            </li>
-            <li><a href="/our_Service">Cybersecurity</a></li>
-            
-            <li>
-              <a href="/our_Service">
-              Resources
-              </a>
+              <a href="/">| Home</a>
             </li>
             
           </ul>
         </section>
 
-        {/* <section class="footer-links learnig-hub-footer-column">
-          <h6>Services</h6>
+        <section class="footer-links">
+          <h6>How it Works</h6>
           <ul>
             <li>
-              <a href="/ourServices">Tech Blog</a>
+            <a href="/our_Service">| Our Services</a>
             </li>
-            <li>
-              <a href="/ourServices">Case Studies</a>
-            </li>
-            <li>
-              <a href="/ourServices">E-books</a>
-            </li>
+            
+            
           </ul>
-        </section> */}
+        </section>
+
+        
 
         <section class="footer-links">
-          <h6>Help</h6>
+          <h6>Our Mission</h6>
           <ul>
             <li>
-              <a href="/FAQ">FAQs</a>
+            
+            <a href="/About_Us">| About Us</a>
             </li>
-            <li>
-              <a href="/our_Service?openBooking=true">Contact Form</a>
-            </li>
-            {/* <li>
-              <a href="/provideFeedback">Feedback</a>
-            </li> */}
+            
           </ul>
         </section>
       </div>

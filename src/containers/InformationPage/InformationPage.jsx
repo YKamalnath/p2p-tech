@@ -16,8 +16,8 @@ const InformationPage = () => {
     <>
     <Header />
     <div className="main-home-container">
-    <WhatWeDo/>
-    <WhyChooseUs/>
+    <section id="what-we-do"><WhatWeDo /></section>
+    <section id="why-choose-us"><WhyChooseUs /></section>
     <AboutUs/>
     <WhoCanUse />
     <Services />
