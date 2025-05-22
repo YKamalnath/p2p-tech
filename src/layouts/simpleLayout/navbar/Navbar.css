@@ -279,7 +279,8 @@
     max-height: 60vh; /* Set a maximum height for the dropdown */
     overflow-y: auto; /* Enable vertical scrolling */
     padding: 1rem 2rem; /* Adjust padding */
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    -webkit-overflow-scrolling: touch !important; /* Smooth scrolling on iOS */
+    overflow-y: scroll !important; 
   }
 
   .secondary-nav-sections {
@@ -320,4 +321,199 @@
   .secondary-nav-section {
     flex: 1;
   }
+}
+
+/* Add these new animation styles at the top of your CSS */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+/* Updated Main Navigation Styles with animations */
+.main-nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.main-nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.main-nav-links a:hover {
+  color: #0066cc;
+}
+
+/* Underline animation for nav links */
+.main-nav-links a:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0066cc;
+  transition: width 0.3s ease;
+}
+
+.main-nav-links a:hover:after {
+  width: 100%;
+}
+
+/* Enhanced Dropdown Styles with animations */
+.dropdown-toggle {
+  transition: all 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+  color: #0066cc;
+}
+
+.dropdown-arrow {
+  transition: transform 0.3s ease;
+}
+
+/* Updated Secondary Navigation with animations */
+.secondary-nav {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  color: #333;
+  max-height: 500px;
+  overflow: hidden;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.secondary-nav:not(.open) {
+  max-height: 0;
+  padding: 0 2rem;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.secondary-nav.open {
+  animation: slideDown 0.3s ease-out;
+}
+
+.section-links li {
+  margin-bottom: 0.8rem;
+  animation: fadeIn 0.3s ease-out;
+  animation-fill-mode: both;
+}
+
+/* Stagger animations for list items */
+.section-links li:nth-child(1) { animation-delay: 0.1s; }
+.section-links li:nth-child(2) { animation-delay: 0.2s; }
+.section-links li:nth-child(3) { animation-delay: 0.3s; }
+.section-links li:nth-child(4) { animation-delay: 0.4s; }
+
+.section-links a {
+  transition: all 0.3s ease;
+  transform-origin: left center;
+}
+
+.section-links a:hover {
+  transform: translateX(5px);
+}
+
+.section-links span {
+  transition: all 0.3s ease;
+}
+
+.section-links a:hover span {
+  color: #333;
+}
+
+.secondary-nav-notice {
+  transition: all 0.3s ease;
+}
+
+.secondary-nav-notice:hover {
+  transform: scale(1.01);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon animations */
+.link-icon {
+  transition: all 0.3s ease;
+}
+
+.section-links a:hover .link-icon {
+  animation: bounce 0.5s ease;
+  color: #004080;
+}
+
+/* Mobile menu animations */
+.main-nav-links {
+  transition: all 0.3s ease-out;
+}
+
+@media (max-width: 768px) {
+  .main-nav-links.open {
+    animation: slideDown 0.3s ease-out;
+  }
+  
+  .main-nav-links a {
+    transition: all 0.2s ease;
+  }
+  
+  .main-nav-links a:hover {
+    background-color: #f0f0f0;
+    padding-left: 10px;
+  }
+  
+  .dropdown-arrow {
+    transition: transform 0.3s ease;
+  }
+}
+
+/* Logo animation */
+.nav-logo {
+  transition: all 0.3s ease;
+}
+
+.nav-logo:hover {
+  animation: pulse 1s ease infinite;
+}
+
+/* Mobile menu button animation */
+.mobile-menu-button {
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-button:hover {
+  transform: rotate(90deg);
 }
