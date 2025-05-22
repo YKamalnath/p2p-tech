@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./ourServicesPage.css";
 import { useNavigate } from 'react-router-dom';
 import { 
@@ -13,6 +13,20 @@ import {
 
 function OurServices() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    // Add animation triggers when component mounts
+    const animateElements = () => {
+      const elements = document.querySelectorAll('.service-card-r, .services-header');
+      elements.forEach(el => {
+        el.style.opacity = '1';
+        el.style.transform = 'translateY(0)';
+      });
+    };
+
+    // Small timeout to ensure CSS is loaded
+    setTimeout(animateElements, 100);
+  }, []);
 
   const services = [
     {
@@ -55,14 +69,18 @@ function OurServices() {
 
   return (
     <div className="services-container-w">
-      <div className="services-header">
+      <div className="services-header animate-header">
         <h1>What We Do</h1>
         <p className="services-subtitle">Comprehensive digital solutions to grow your business</p>
       </div>
       
       <div className="services-grid">
         {services.map((service, index) => (
-          <div className="service-card-r" key={index}>
+          <div 
+            className="service-card-r animate-card" 
+            key={index}
+            style={{ transitionDelay: `${index * 0.1}s` }}
+          >
             <div className="service-icon-container">{service.icon}</div>
             <h3>{service.title}</h3>
             <p>{service.description}</p>
@@ -71,7 +89,7 @@ function OurServices() {
         ))}
       </div>
       
-      <button className="see-all-btn" onClick={() => navigate('/our_Service')}>
+      <button className="see-all-btn animate-btn" onClick={() => navigate('/our_Service')}>
         See All Services <FaArrowRight className="btn-icon" />
       </button>
     </div>
