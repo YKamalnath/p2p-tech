@@ -2,11 +2,13 @@
 import React, { useState } from "react";
 import "./Footer.css";
 import footerLogo from "../../../assets/p2p-02-removebg-preview.png";
-import facebookIcon from "../../../assets/Images/facebookIcon.svg";
-import linkdinIcon from "../../../assets/Images/linkdinIcon.svg";
-import instaIcon from "../../../assets/Images/instaIcon.svg";
-import youtubeIcon from "../../../assets/Images/youtubeIcon.svg";
-import twiterIcon from "../../../assets/Images/twiterIcon.svg";
+import { 
+  FaFacebookF, 
+  FaLinkedinIn, 
+  FaInstagram, 
+  FaYoutube, 
+  FaTwitter 
+} from "react-icons/fa"
 
 
 const Footer = () => {
@@ -31,21 +33,21 @@ const Footer = () => {
           <div className="contact-social-container">
             <section class="footer-social">
               <h6>Follow Us</h6>
-              <ul className="contact-social-media-container">
-                <a href="" target="_blank">
-                  <img className="contact-social-media" src={facebookIcon} />
+               <ul className="contact-social-media-container">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <FaFacebookF className="contact-social-media" />
                 </a>
-                <a href="" target="_blank">
-                  <img className="contact-social-media" src={linkdinIcon} />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedinIn className="contact-social-media" />
                 </a>
-                <a href="" target="_blank">
-                  <img className="contact-social-media" src={instaIcon} />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram className="contact-social-media" />
                 </a>
-                <a target="_blank">
-                  <img className="contact-social-media" src={youtubeIcon} />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <FaYoutube className="contact-social-media" />
                 </a>
-                <a target="_blank">
-                  <img className="contact-social-media" src={twiterIcon} />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <FaTwitter className="contact-social-media" />
                 </a>
               </ul>
             </section>
