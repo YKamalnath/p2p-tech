@@ -21,9 +21,6 @@ const InformationPage = () => {
     <AboutUs/>
     <WhoCanUse />
     <Services />
-    {/* <SuccessStories /> */}
-    {/* <Staff/> */}
-    {/* <Questions /> */}
     <JoinCommunity />
 
     </div>
