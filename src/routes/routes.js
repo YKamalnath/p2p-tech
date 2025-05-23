@@ -6,7 +6,7 @@ import InformationPage from '../containers/InformationPage/InformationPage';
 import AboutUs from '../containers/AboutUs/AboutUs';
 import OurService from '../Pages/OurServicePage/index';
 import OurGoal from "../containers/OurGoal/ourGoal"
-import DoctorDetails from "../containers/DoctorsDetails/DoctorsDetails"
+import DoctorDetails from "../containers/TeamsDetails/TeamsDetails"
 import Help from "../containers/Help/Help"
 import ServiceDeatiles from "../Pages/ServiceDetailPage/ServiceDetail"
 import AboutUsPage from '../Pages/AboutUsPage/index';
